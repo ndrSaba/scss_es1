@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+div {
+  border: 1px solid red;
+  margin: 10px 10px;
+}
+div h1 {
+  color: green;
+  text-decoration: underline blue;
+  text-align: center;
+}
+div section {
+  display: flex;
+  padding: 30px 30px;
+}
+div section article:first-child {
+  border: 1px solid green;
+}
+div section article:first-child p {
+  color: blue;
+  text-align: center;
+  padding: 20px 20px;
+}
+div section article:nth-child(2) {
+  border: 1px solid green;
+}
+div section article:nth-child(2) p {
+  color: red;
+  text-align: center;
+  padding: 20px 20px;
+}
+div section article:nth-child(3) {
+  border: 1px solid green;
+}
+div section article:nth-child(3) p {
+  color: blue;
+  text-align: center;
+  padding: 20px 20px;
+}
+div section article:last-child {
+  border: 1px solid green;
+}
+div section article:last-child p {
+  color: red;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

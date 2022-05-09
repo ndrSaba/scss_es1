@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+
+div {
+    border: 1px solid red;
+    margin: 10px 10px;
+    h1 {
+        color: green;
+        text-decoration: underline blue;
+        text-align: center;
+    }
+
+    section {
+        display: flex;
+        padding: 30px 30px;
+
+        article:first-child {
+            border: 1px solid green;
+
+            p {
+                color: blue;
+                text-align: center;
+                padding: 20px 20px;
+            }
+        }
+
+        article:nth-child(2) {
+            border: 1px solid green;
+
+            p {
+                color: red;
+                text-align: center;
+                padding: 20px 20px;
+            }
+        }
+
+        article:nth-child(3) {
+            border: 1px solid green;
+
+            p {
+                color: blue;
+                text-align: center;
+                padding: 20px 20px;
+            }
+
+        }
+
+        article:last-child {
+            border: 1px solid green;
+
+            p {
+                color: red;
+                text-align: center;
+                padding: 20px 20px;
+            }
+        }
+    }
+}
